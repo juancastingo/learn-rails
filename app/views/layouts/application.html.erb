@@ -12,12 +12,15 @@
     <%= csrf_meta_tags %>
   </head>
 
-  <body>
-
-    <%= yield %>
-<div data-alert class="alert-box">
-asd
-  <a href="#" class="close">&times;</a>
-</div>
-  </body>
+<body>
+<header>
+<%= render 'layouts/navigation' %>
+</header>
+<main role="main">
+<%= render 'layouts/messages' %>
+<%= yield %>
+</main>
+</body>
 </html>
+
+
