@@ -55,5 +55,10 @@ Rails.application.routes.draw do
   #   end
 
   #root to: redirect('/about.html') # static
+  #post 'contact', to: 'contacts#process_form'
+
+
+  resources :contacts, only: [:new, :create]
+
   root to: 'visitors#new'
 end
