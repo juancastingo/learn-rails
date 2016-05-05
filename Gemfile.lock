@@ -116,7 +116,7 @@ GEM
     mime-types-data (3.2016.0221)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
-    multi_json (1.11.3)
+    multi_json (1.12.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
     nokogiri (1.6.7.2)
@@ -234,7 +234,7 @@ DEPENDENCIES
   rails (= 4.2.6)
   rails_12factor
   rails_layout
-  sass-rails (~> 5.0)
+  sass-rails (~> 5.0.1)
   sdoc (~> 0.4.0)
   simple_form
   spring
